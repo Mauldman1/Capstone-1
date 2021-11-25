@@ -11,44 +11,129 @@
 	<script src="https://use.fontawesome.com/3903c9d7fd.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet">
     <script src="./js/googleMaps.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cardo&family=Crimson+Pro:wght@200&family=M+PLUS+1+Code&family=Nunito:wght@200&family=Oswald&family=Quicksand&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
 <!-- End of copied stuff -->
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- Start of Nav Bar -->
+	<nav class="navbar navbar-expand-lg navbar-dark navBG">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#">Navbar</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+			<a class="navbar-brand" href="#">My Awesome Website</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div class="navbar-nav ms-auto">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
-					<a class="nav-link" href="#">About</a>
-					<a class="nav-link" href="#">Contact</a>
-					<a class="nav-link" href="#">Project</a>
-				</div>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="menu ms-auto navbar-nav">
+				    <li class="menu_list">
+				        <span class="front fas fa-home"></span>
+				        <a href="#home" class="side">home</a>
+				    </li>
+				    <li class="menu_list">
+				        <span class="front fas fa-info"></span>
+				        <a href="#about-me" class="side">about</a>
+				    </li>
+				    <li class="menu_list">
+				        <span class="front fas fa-briefcase"></span>
+				        <a href="#projects" class="side">projects</a>
+				    </li>
+				    <li class="menu_list">
+				        <span class="front fas fa-paper-plane"></span>
+				        <a href="#contact" class="side">contact</a>
+				    </li>
+				</ul>
 			</div>
 		</div>
 	</nav>
-
+<!-- End of Nav Bar -->
+<!-- Main Content -->
 	<main>
-		<!-- About Me -->
-		<section>
-			<h1 class="text-center">About Me</h1>
+<!-- Intro -->
+		<header id="home">
+			<section class="hero-banner">
+					<h1 class="text-center">Shinji Caro</h1>
+					<p class="banner-title">Programmer/Coder Extraordinare at your service! </p>
+				</div>
+			</section>
+		</header>
+<!-- End of Intro -->
+<!-- About Me -->
+		<section id="about-me">
+			<h1 class="text-center extraMargin">About Me</h1>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<h3>Hi! I'm Shinji!</h3>
+						<p>I'm an experienced web developer, software developer, full-stack developer and an overall programmer at your service! </p> 
+						<p>Well-versed in the art of coding, earnest and hardworking, I am always ready to give my best for the company. I also have previous experience in a working environment and thus have a proper etiquette and conduct. </p>
+					</div>
+					<div class="col-md-3">
+						<h3>Programming Languages</h3>
+						<ul class="removeList">
+							<li>HTML/CSS</li>
+							<li>Javascript</li>
+							<li>Python</li>
+							<li>Node.Js Framework</li>
+							<li>React</li>
+							<li>Unit Testing</li>
+							
+
+						</ul>
+					</div>
+
+					<div class="col-md-6">
+						<img class="img-thumbnail rounded-circle border-0" src="./assets/pics/giga-chad.jpg">
+					</div>
+				</div>
 		</section>
 		<!-- End of About Me -->
 
 		<!-- Project -->
-		<section>
-			<h1 class="text-center">Project</h1>
+		<section id="projects">
+			<h1 class="text-center extraMargin">Project</h1>
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+						<img src="./assets/pics/img10.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Capstone 1</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+						<img src="./assets/pics/img10.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Capstone 2</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+						<img src="./assets/pics/img10.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Capstone 3</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 		<!-- End of Project -->
 
 		<!-- Contact -->
-		<section>
-			<h1 class="text-center">Contact</h1>
+		<section id="contact">
+			<h1 class="text-center extraMargin">Contact</h1>
 
-			<form>
+			<form class="extraMargin">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
@@ -81,7 +166,13 @@
 	</main>
 
 	<footer>
-		<p class="text-center">Copyright@ My Website 2021</p>
+		<div class="text-center">
+			<a class="link-light" href="">Home</a>
+			<a class="link-light" href="">About</a>
+			<a class="link-light" href="">Project</a>
+			<a class="link-light" href="">Contact</a>
+		</div>
+		<p class="text-center">Copyright© Your Website 2021</p>
 	</footer>
 
 
