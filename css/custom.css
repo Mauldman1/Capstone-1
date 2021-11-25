@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     
 }
 ul.menu li.menu_list {
@@ -96,8 +96,8 @@ img{
 }
 
 .extraMargin{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 .carousel-inner > {
@@ -139,7 +139,21 @@ h3{
     font-weight: bold;
 }
 
-ul.removeList{
+ul.removeDeco{
     text-decoration: none;
     list-style-type: none;
+}
+
+.dvder{
+    border-bottom: 1px solid gray;
+}
+
+.btn-outline-personal {
+  color: #34465d;
+  border-color: #34465d;
+}
+  .btn-outline-personal:hover {
+  color: #FFFC00;
+  background-color: #34465d;
+  border-color: #FFFC00;
 }
