@@ -166,3 +166,11 @@ ul.removeDeco{
   background-color: #34465d;
   border-color: #FFFC00;
 }
+
+.navbar-dark .navbar-brand {
+  color: #FFFC00;
+}
+
+.head-foot-color{
+    color: #FFFC00;
+}

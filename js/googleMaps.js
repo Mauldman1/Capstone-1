@@ -5,11 +5,11 @@ function initMap() {
   // The map, centered at Uluru
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 13,
-    center: uluru,
+    center: manila,
   });
   // The marker, positioned at Uluru
   const marker = new google.maps.Marker({
-    position: uluru,
+    position: manila,
     map: map,
   });
 }
