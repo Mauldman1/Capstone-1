@@ -76,14 +76,23 @@ img{
     max-width: 100%;
     height: auto;
     
+    
 }
 
 .hero-banner{
-    background-color: #34465d;
+/*    background-color: #34465d;
     color: white;
     padding-top: 5%;
     padding-bottom: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 5%;*/
+    background-color: #34465d;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    padding-top: 10%;
+}
     
 }
 
