@@ -8,7 +8,7 @@
 ul.menu li.menu_list {
     display: inline-block;
     list-style-type: none;
-    height: 85px;
+    height: 55px;
     width: 85px;
     position: relative;
 }
@@ -18,9 +18,9 @@ a.side {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 86px;
+    height: 60px;
     width: 100%;
-    padding: 30px;
+    padding: 5px;
     position: absolute;
     top: 0;
     left: 0;
@@ -91,7 +91,7 @@ img{
     background-size: cover;
     height: 100vh;
     color: white;
-    padding-top: 10%;
+    padding-top: 15%;
 }
     
 }
